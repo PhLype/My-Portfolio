@@ -1,0 +1,5 @@
+/* Principais */
+@import url("root.css");
+@import url("configuration.css");
+/* Páginas */
+@import url("pages/home.pg.css");

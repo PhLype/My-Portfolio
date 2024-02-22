@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-color-three);
+    padding: 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul li {
+    padding: 0 1rem;
+}
+
+.navbar ul li a {
+    padding: 1rem;
+    color: var(--txt-color);
+}
