@@ -2,6 +2,27 @@
     --bg-color-primary: #3644c0;
     --bg-color-secondary: #373458;
     --bg-color-three: #201e2b;
+    --bg-color-four: #24243a;
 
     --txt-color: #c4c4c4;
+}
+
+body[data-theme="t-dark"] {
+    --bg-color-primary: #201e2b;
+    --bg-color-secondary: #373458;
+    --bg-color-three: #201e2b;
+    --bg-color-four: #24243a;
+
+    --txt-color: #c4c4c4;
+    --txt-color-active: #fff;
+}
+
+body[data-theme="t-light"] {
+    --bg-color-primary: #c5c5c5;
+    --bg-color-secondary: #dddddd;
+    --bg-color-three: #c4c4c4;
+    --bg-color-four: #adadad;
+
+    --txt-color: #222222;
+    --txt-color-active: #0a0000;
 }

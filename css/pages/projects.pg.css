@@ -1,0 +1,8 @@
+/* Componentes */
+@import url("../components/card-projects.css");
+
+#projects {
+    background: var(--bg-color-three);
+    margin-top: 2.5rem;
+    padding: 2rem;
+}

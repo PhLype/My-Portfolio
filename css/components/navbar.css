@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: var(--bg-color-three);
     padding: 1rem;
 }
@@ -19,4 +19,25 @@
 .navbar ul li a {
     padding: 1rem;
     color: var(--txt-color);
+}
+
+.navbar ul li a:hover {
+    color: #fff;
+    transition: all .2s;
+    color: var(--txt-color-active);
+    letter-spacing: .1rem;
+}
+
+.navbar ul li a.active {
+    color: var(--txt-color-active);
+}
+
+.navbar .nvbar-right button {
+    border: none;
+    background: var(--bg-color-three);
+    padding: .5rem .8rem;
+    padding-bottom: 0;
+    color: var(--txt-color);
+    font-size: 1.1rem;
+    cursor: pointer;
 }

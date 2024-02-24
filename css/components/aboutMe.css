@@ -25,5 +25,5 @@ summary {
 
 details>p {
     margin: .5rem;
-    color: #bbbbbb;
+    color: var(--txt-color);
 }
